@@ -294,7 +294,7 @@ nav {
 
 /* CART / BILLING SECTION  */
 .cart-section {
-    min-height: 380px;
+    min-height: 300px;
     height: auto;
 }
 
@@ -364,7 +364,7 @@ nav {
 .no-items ion-icon {
     font-size: 64px;
     color: #2a2a2a;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .empty-title {
@@ -389,6 +389,13 @@ nav {
     border-top: 1px solid #eee;
 }
 
+/* INFO TEXT  */
+.bottom-info {
+    font-size: 1rem;
+    color: #4e33e8;
+    margin-top: 20px;
+    font-weight: bold;
+}
 
 /* BUTTONS  */
 .btn-add,
@@ -440,7 +447,6 @@ nav {
 #booking-form label{
     font-size:0.9rem;
     color:#444;
-    /* margin-bottom:4px; */
 }
 #booking-form #user_name{
     grid-column: 1 / -1;
@@ -463,6 +469,15 @@ input::placeholder{
     border-color:#ddd;
 }
 
+#booking-message{
+    display: none;
+    grid-column: 1 / -1;
+    width: 100%;
+    text-align: center;
+    color: #16a34a;
+    line-height: 1.6;
+}
+
 .btn-submit{
     grid-column:1 / -1;
     width:100%;
@@ -476,13 +491,6 @@ input::placeholder{
     margin-top:8px;
 }
 
-/* INFO TEXT  */
-.bottom-info {
-    font-size: 1rem;
-    color: #4e33e8;
-    margin-top: 20px;
-    font-weight: bold;
-}
 
 /* QUALITY DESCRIPTION */
 .quality-section {
